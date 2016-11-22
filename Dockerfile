@@ -18,6 +18,5 @@ RUN apk add --no-cache build-base curl automake autoconf libtool git zlib-dev &&
         make && make install && \
         rm -rf `pwd`
 
-#cleanup no more useful packages and apk cache
-RUN apk del build-base git automake autoconf
+#cleanup apk cache
 RUN rm -rf /var/cache/apk/*
