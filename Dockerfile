@@ -1,10 +1,10 @@
 FROM python:3.5-alpine
 
-MAINTAINER "Luca Zecca"
-LABEL project="lzecca78/pythonized-protobuf"
+MAINTAINER "Mirko Bonasorte"
+LABEL project="squadrone/pythonized-protobuf"
 LABEL version = "3.1.0"
-LABEL author="Luca Zecca"
-LABEL author_email="l.zecca78@gmail.com"
+LABEL author="Mirko Bonasorte"
+LABEL author_email="mirko@conio.com"
 
 #compile protobuf bins
 ENV PROTOBUF_VERSION=3.1.0
